@@ -1,0 +1,1 @@
+../../.claude/hooks/backend-ready-check.py

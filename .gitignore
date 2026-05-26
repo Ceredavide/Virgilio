@@ -1,0 +1,15 @@
+.DS_Store
+.claude/settings.local.json
+.worktrees/
+.claude/worktrees/
+__pycache__/
+*.pyc
+
+# Generated CLI snapshot
+cli/template/*
+!cli/template/.gitkeep
+
+# Virgilio support folder is for ephemeral, non-production materials.
+# In THIS repo (the meta-project) we don't want exploration files tracked.
+# Users of Virgilio in their own projects decide their own .gitignore policy.
+.virgilio/

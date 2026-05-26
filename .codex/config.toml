@@ -1,0 +1,5 @@
+# Virgilio project-scoped Codex configuration
+# Enables deterministic hooks used by the specification-first workflow.
+
+[features]
+hooks = true

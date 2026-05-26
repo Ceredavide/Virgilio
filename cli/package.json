@@ -1,0 +1,35 @@
+{
+  "name": "@ceredavide/virgilio",
+  "version": "1.0.0",
+  "description": "Install Virgilio (specification-first AI coding workflow for non-programmers) into a project.",
+  "type": "module",
+  "bin": {
+    "virgilio": "./bin/virgilio.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "template/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "snapshot": "node scripts/snapshot.mjs",
+    "test": "node scripts/run-tests.mjs",
+    "prepublishOnly": "npm run snapshot && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ceredavide/Virgilio.git",
+    "directory": "cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "author": "Davide Ceresa"
+}

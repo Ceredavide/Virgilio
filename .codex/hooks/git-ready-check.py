@@ -1,0 +1,1 @@
+../../.claude/hooks/git-ready-check.py
