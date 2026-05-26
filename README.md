@@ -57,7 +57,7 @@ Virgilio is meant to live inside the project you are working on, not as a global
 In the folder where you want to use Virgilio, run:
 
 ```bash
-npx @ceredavide/virgilio init
+npx @ceredavide/virgilio@1.0.0 init
 ```
 
 This works in both an empty folder (new project) and a folder that already has application code (Virgilio is added alongside without touching your existing files). The CLI installs the safety hooks and the skills, leaves your `SPEC.md` to be written by the agent during the first session, and prints next-steps for installing Superpowers and the MCP servers (see `cli/README.md` for the full companion setup).
